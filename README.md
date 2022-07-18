@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# MERN-Travel-Map
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div id="top"></div>
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+ 
 
-In the project directory, you can run:
+  <h3 align="center">Travel Map App</h3>
 
-### `npm start`
+  <p align="center">
+    A single page application built with MERN Stack from scratch (MongoDB + Mongoose, Express, React & NodeJs)
+  </p>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- TABLE OF CONTENTS -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Content
 
-### `npm test`
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- ABOUT THE PROJECT -->
 
-### `npm run build`
+## About The Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In this application, you can pin your location and share your reviews with other users.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The users can pin their favourite locations on the map to which the users can rate them, write some descripion about that place which other users can see.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Here are some of the basis functions:
 
-### `npm run eject`
+- Register
+<p align="center"><img src="images/register.png" alt="Logo" width="70%"></p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Login
+<p align="center"><img src="images/login.png" alt="Logo" width="70%"></p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Pin a location
+<p align="center"><img src="images/home-screen.png" alt="Logo" width="70%"></p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Review & Rating
+<p align="center"><img src="images/review.png" alt="Logo" width="70%"></p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Preview all locations on the map
+<p align="center"><img src="images/allpins.png" alt="Logo" width="70%"></p>
 
-## Learn More
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Built With
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For front end
 
-### Code Splitting
+- [ReactJS v17.0.2](https://reactjs.org/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+For the backend API
 
-### Analyzing the Bundle Size
+- [NodeJS](https://nodejs.org/en/)
+- [Express Framework](https://expressjs.com/)
+- [Mapbox API](https://www.mapbox.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Making a Progressive Web App
+<!-- GETTING STARTED -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Usage
 
-### `npm run build` fails to minify
+As the introduction indicated, this is an app where you can register, log in then write a review and rating of places you have visited. Users can go on the app and see other user's comments on the map.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#top">back to top</a>)</p>
