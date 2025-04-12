@@ -20,7 +20,7 @@ export default function Register({ setShowRegister }) {
     };
 
     try {
-      await axios.post("https://travel-map-api.herokuapp.com/api/users/register", newUser);
+      await axios.post("https://travel-map-backend-vy4k.onrender.com", newUser);
       setError(false);
       setSuccess(true);
     } catch (err) {
