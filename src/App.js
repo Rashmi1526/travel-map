@@ -30,7 +30,7 @@ function App() {
     const getPins = async () => {
       try {
         //const allPins = await axios.get("https://travelmap-re.herokuapp.com");
-        const allPins = await axios.get("https://travel-map-backend-vy4k.onrender.com");
+        const allPins = await axios.get("https://travel-map-backend-vy4k.onrender.com/api/pins");
         console.log(allPins.data);
         setPins(allPins.data);
       } catch (err) {
@@ -65,7 +65,7 @@ function App() {
     };
 
     try {
-      const res = await axios.post("https://travel-map-backend-vy4k.onrender.com", newPin);
+      const res = await axios.post("https://travel-map-backend-vy4k.onrender.com/api/pins", newPin);
       setPins([...pins, res.data]);
       setNewPlace(null);
     } catch (err) {
