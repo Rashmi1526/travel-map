@@ -17,7 +17,7 @@ export default function Login({setShowLogin, myStorage, setCurrentUser}) {
       };
 
       try {
-        const res = await axios.post("https://travel-map-backend-vy4k.onrender.com", user);
+        const res = await axios.post("https://travel-map-backend-vy4k.onrender.com/api/users/login", user);
         myStorage.setItem("user", res.data.username);
         setCurrentUser(res.data.username);
         setShowLogin(false);
